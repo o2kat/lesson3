@@ -65,65 +65,6 @@
     margin-bottom: 6px;
 }
 
-/* ===== Поля ввода ===== */
-.main-fields {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-}
-
-.main-field {
-    position: relative;
-}
-
-.main-field input {
-    width: 100%;
-    padding: 10px 12px 10px 34px;
-    border: 1px solid #E8E8E7;
-    border-radius: 10px;
-    font-size: 13px;
-    font-family: inherit;
-    background: #FFFFFF;
-    transition: border-color 0.2s;
-}
-
-.main-field input:focus {
-    outline: none;
-    border-color: #FFCC00;
-}
-
-.main-pin {
-    position: absolute;
-    left: 12px;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background: #FFCC00;
-    z-index: 1;
-}
-
-.main-ac {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    background: #FFFFFF;
-    border: 1px solid #E8E8E7;
-    border-radius: 10px;
-    margin-top: 4px;
-    max-height: 150px;
-    overflow-y: auto;
-    display: none;
-    z-index: 10;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
-}
-
-.main-ac.active {
-    display: block;
-}
-
 .main-sizes {
     display: grid;
     gap: 6px;
@@ -276,31 +217,9 @@
     column-gap: 10px;
 }
 
-.order-fields .main-field input {
-    padding-left: 12px;
-}
-
 .main-block-info-row.extra-info {
     display: block;
     margin-top: 13px;
-}
-
-.main-field.textarea textarea {
-    width: 100%;
-    padding: 10px 12px;
-    border: 1px solid #E8E8E7;
-    border-radius: 10px;
-    font-size: 13px;
-    font-family: inherit;
-    min-height: 60px;
-    resize: vertical;
-    background: #FFFFFF;
-    transition: border-color 0.2s;
-}
-
-.main-field.textarea textarea:focus {
-    outline: none;
-    border-color: #FFCC00;
 }
 
 .main-submit-request {
@@ -347,7 +266,7 @@
     line-height: 1.3;
 }
 
-/* ===== НОВЫЕ СТИЛИ ДЛЯ СКОРОСТИ ДОСТАВКИ ===== */
+/* ===== Стили для скорости доставки ===== */
 .main-speed .main-block-title {
     margin-bottom: 6px;
 }
